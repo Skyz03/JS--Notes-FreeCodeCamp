@@ -35,3 +35,35 @@ MYVAR is not the same as MyVar nor myvar.
 #### Differences Between the var and let Keywords
 So unlike var, when you use let, a variable with the same name can only be declared once.
 
+#### Read-Only Variable with the const Keyword
+const has all the awesome features that let has, with the added bonus that variables declared using const are read-only. They are a constant value, which means that once a variable is assigned with const, it cannot be ```reassigned```.
+It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values.
+
+### Numbers
+Number is a data type in JavaScript which represents numeric data.
+const myVar = 5 + 10;
+const myVar = 12 - 6;
+const myVar = 13 * 13;
+const myVar = 13 * 13;
+const myVar = 16 / 2;
+i++; ```i = i + 1;```
+i--; ```i = i - 1;```
+
+Decimal numbers are sometimes referred to as floating point numbers or floats.
+const myDecimal = 5.8;
+
+#### Remainder in JavaScript
+The remainder operator % gives the remainder of the division of two numbers.
+
+#### Odd Even Checker
+17 % 2 = 1 (17 is Odd)
+48 % 2 = 0 (48 is Even)
+
+#### Augmented Addition
+One such operator is the += operator.
+
+let myVar = 1;
+myVar += 5;
+console.log(myVar);
+
+6 would be displayed in the console.
