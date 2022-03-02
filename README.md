@@ -25,3 +25,13 @@ var myNum;
 myNum = myVar;
 
 ### Strings
+var myName = "First String";
+"First String" is called a string literal. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+When JavaScript variables are declared, they have an initial value of ```undefined.```
+If you do a mathematical operation on an undefined variable your result will be NaN which means "Not a Number". If you concatenate a string with an undefined variable, you will get a literal string of undefined.
+It is caseSensitive. 
+MYVAR is not the same as MyVar nor myvar.
+
+#### Differences Between the var and let Keywords
+So unlike var, when you use let, a variable with the same name can only be declared once.
+
