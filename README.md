@@ -1,7 +1,7 @@
 # JS--Notes-FreeCodeCamp
 This is a JavaScript Notes from the FreeCodeCamp Website Tutorials.
 
-### Comment
+#### Comment
 Using // will tell JavaScript to ignore the remainder of the text on the current line. This is an in-line comment:
 
 // This is an in-line comment.
