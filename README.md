@@ -158,5 +158,38 @@ const data = array[1];
 ```
 
 ### Modify Array Data With Indexes
+Unlike strings, the entries of arrays are mutable and can be changed freely, even if the array was declared with const.
+```const ourArray = [50, 40, 30];
+ourArray[0] = 15;
+```
 
+### Access Multi-Dimensional Arrays With Indexes
+ An array of arrays.
+ ```const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14]
+];
 
+arr[3];
+arr[3][0];
+```
+
+## Manipulate Arrays 
+
+### Push:
+An easy way to append data to the end of an array.
+```
+const arr1 = [1, 2, 3];
+arr1.push(4);
+arr1 now has the value [1, 2, 3, 4] 
+```
+
+### Pop
+```
+.pop() is used to pop a value off of the end of an array
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop()
+console.log will display the value 6
+```
