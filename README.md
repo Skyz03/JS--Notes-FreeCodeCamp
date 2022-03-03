@@ -187,9 +187,72 @@ arr1 now has the value [1, 2, 3, 4]
 ```
 
 ### Pop
-```
 .pop() is used to pop a value off of the end of an array
+```
 const threeArr = [1, 4, 6];
 const oneDown = threeArr.pop()
 console.log will display the value 6
 ```
+
+### Shift
+It remove the first item from the array.
+```
+const ourArray = ["Stimpson", "J", ["cat"]];
+const removedFromOurArray = ourArray.shift();
+```
+
+### Unshift
+It Adds elements in front of the array.
+```
+const ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(["wow"]);
+```
+
+### Functions
+function functionName() {
+  console.log("Hello World");
+}
+
+### Passing Values to Functions with Arguments
+Parameters are variables that act as placeholders for the values that are to be input to a function when it is called.
+```function testFun(param1, param2) {
+  console.log(param1, param2);
+}
+```
+
+### Return a Value from a Function with Return
+You can use a return statement to send a value back out of a function.
+```function plusThree(num) {
+  return num + 3;
+}
+
+const answer = plusThree(5);
+```
+
+### Global Scope and Functions
+In JavaScript, scope refers to the visibility of variables. Variables which are defined outside of a function block have Global scope
+
+```Variables which are declared without the let or const keywords are automatically created in the global scope.```
+
+### Local Scope
+Variables which are declared within a function, as well as the function parameters, have local scope. That means they are only visible within that function.
+
+### Assignment with a Returned Value
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+### Understanding Boolean Value
+Booleans may only be one of two values: true or false. They are basically little on-off switches, where true is on and false is off. These two states are mutually exclusive.
+
+### Conditional Logic
+if statements are used to make decisions in code. When the condition evaluates to true, the program executes the statement inside the curly braces. When the Boolean condition evaluates to false, the statement inside the curly braces will not execute.
+
+    if (condition is true) {
+    statement is executed
+    }
+
+
+
+
