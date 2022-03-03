@@ -254,5 +254,26 @@ if statements are used to make decisions in code. When the condition evaluates t
     }
 
 
+### Equality Operator
+The most basic operator is the equality operator ==.
+    
+    function equalityTest(myVal) {
+     if (myVal == 10) {
+    return "Equal";
+     }
+    return "Not Equal";
+    }
 
+#### Strict Equality
+If the values being compared are not of the same type, the equality operator will perform a type conversion, and then evaluate the values. However, the strict equality operator will compare both the data type and value as-is, without converting one type to the other.
+Data Types as well
+
+    3 == '3' returns true because JavaScript performs type conversion from string to number. 3 === '3' returns false because the types are different and type conversion is not performed.
+
+
+```3 ===  3  // true
+3 === '3' // false
+
+In the second example, 3 is a Number type and '3' is a String type.
+```
 
