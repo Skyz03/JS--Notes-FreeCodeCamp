@@ -277,3 +277,36 @@ Data Types as well
 In the second example, 3 is a Number type and '3' is a String type.
 ```
 
+In JavaScript, you can determine the type of a variable or a value with the typeof operator, as follows:
+
+typeof 3
+typeof '3'
+
+typeof 3 returns the string number, and typeof '3' returns the string string.
+
+### Inequality Operator
+1 !=  2    // true
+
+### Strict Inequality Operator
+3 !==  3  // false
+3 !== '3' // true
+
+### Operator 
+5   >  3  // true
+6   >=  6  // true
+2   < 5 // true
+4   <= 5 // true
+
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+return "No";
+
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+
+
+
+
